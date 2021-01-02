@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <title>WEB1 - HTML</title>
+    <meta charset = "utf-8">
+</head>
+
+<body>
+    <h1> 2021년 대비 WEB 공부 계획 </h1>
+
+    <h2> 공부해야 될 것들 </h2>
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h2> 목표 </h2>
+
+    <strong>"나는 앞으로 <u>JavaScrpit</u>를 마스터 할 것이다!"</strong>
+    <br>
+    <h1>여러분의 인생은! 태그를 알기 전과 알기 후로 나뉠 것입니다!</h1>
+
+    <p style ="margin-top:40px;"> p는 단락을 나누는데에 사용되는 태그입니다!</p>
+    <p>br은 new line, 줄바꿈 태그입니다!</p>
+    <p>style ="margin-top:40px;" 이건 css 코드인데 이해는 가능! 암기는 X!</p>
+    <p>오늘 내용중 가장 기억에 남는 말 : 검색엔진에게 선택되지 않는 WEB은 실질적으로 없는 것이나 마찬가지이다.
+    즉, WEB을 화려하고 멋지게 만드는 것보다 더 중요한 것은 어찌보면 검색엔진에게 선택되게 만드는 것이다.</p>
+    <p>unsplash.com -> 공공이미지, 저작권 없는 이미지</p>
+    <img src="test_img_web.jpg" width = "100%">
+    <p>태그가 태그, 즉 이름만으로 부족할 때 속성(Attribute)를 통해 보조한다.</p>
+    <p>ol : ordered list  ul : unordered list 
+    Parent Tag has a Child tag</p>
+    <p> meta charset = "utf-8" -> 이 태그는 웹 브라우저에게 utf-8로 문서를 읽으라고 알려주는 것임!</p>
+    <h2> 링크, 태그들의 제왕 </h2>
+    <p> 내 깃허브 : <a href = "https://github.com/kimtaehyun98/-" >링크 주소</a></p>
+    <p> 오늘 들은 멋있는 말 : NASA가 인류의 망원경이라면, 강입자연구소는 인류의 현미경이다. </p>
+    <p> <img src = "Messopotamia.PNG" width = "100%">
+    <p> <strong>위의 사진은 Web의 메소포타미아와 같은, Web을 처음 만든 팀 버너스가 처음으로 주소를 부여한 website</strong></p>
+    <h2> 동영상 삽입해보기 </h2> <br>
+    <p> 아래의 동영상은 2020-2학기 Adventure Design강의에서 우리조가 최종 결과물을 만들기 위해 어떤 방식으로 영상을 구성할지에 대해 각자 한번씩 예제를 만들어보자
+    라고 해서 만든 동영상으로 정말 추억의 동영상입니다! <br> 당연히 이 영상은 최종결과물과 전혀 상관이 없는 영상입니다^^</p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/-5bhEvbAmDo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <br><br>
+    <h2> 댓글 기능 추가해보기해보기 </h2> <br>
+    <p> 방문자들과 상호작용이 불가능한 단점을 보완하는 댓글 기능은 HTML로는 불가능하다. <br>
+    <b>but 그러나!<b> 원래라면 내가 구현하는건 불가능에 가깝지만 남들이 만든 기능을 한번 추가해보자! </p> <br><br>
+    <p><div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web-1-html-1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
+</body>
+</html>
